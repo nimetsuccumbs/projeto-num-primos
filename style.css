@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-    color: rgb(119, 66, 45);
+    color: rgb(151, 58, 34);
 }
 
 p{
@@ -12,5 +12,18 @@ p{
 }
 
 button{
-    color: rgb(119, 66, 45);
+    color: rgb(71, 27, 16);
+    background-color: rgb(167, 98, 71);;
+    width: 100px;
+    height: 70px;
+}   
+
+input{
+    color: rgb(151, 58, 34);
+    background-color: rgba(167, 98, 71, 0.479);
+    
+}   
+
+::placeholder {
+    color: rgb(151, 58, 34);
 }
