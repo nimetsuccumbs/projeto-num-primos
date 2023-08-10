@@ -12,6 +12,7 @@ p{
 }
 
 button{
+    border-radius:  15px;
     color: rgb(71, 27, 16);
     background-color: rgb(167, 98, 71);;
     width: 100px;
@@ -19,6 +20,7 @@ button{
 }   
 
 input{
+    border-radius:  15px;
     color: rgb(151, 58, 34);
     background-color: rgba(167, 98, 71, 0.479);
     
