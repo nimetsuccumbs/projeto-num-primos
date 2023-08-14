@@ -1,31 +1,36 @@
-
-body{
+body {
     background-color: rgb(235, 201, 169);
 }
 
-h1{
+h1 {
     color: rgb(151, 58, 34);
 }
 
-p{
+p {
     color: rgb(167, 98, 71);
 }
 
-button{
-    border-radius:  15px;
+button {
+    border-radius: 15px;
     color: rgb(71, 27, 16);
-    background-color: rgb(167, 98, 71);;
+    background-color: rgb(167, 98, 71);
+    ;
     width: 100px;
     height: 70px;
-}   
+}
 
-input{
-    border-radius:  15px;
+input {
+    border-radius: 15px;
     color: rgb(151, 58, 34);
     background-color: rgba(167, 98, 71, 0.479);
-    
-}   
+}
 
 ::placeholder {
     color: rgb(151, 58, 34);
+}
+
+h4 {
+    font-size: small;
+    color: rgb(167, 98, 71);
+    text-align: center;
 }

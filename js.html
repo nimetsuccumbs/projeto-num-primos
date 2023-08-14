@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <script src="script.js"></script>
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <title>Desconto Livros</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="emoji.png">
 </head>
+
 <body style="text-align:center;">
 
-<h1>Algoritmo 37</h1>   
-<p>
-    JS
-</p> 
+    <h1>Algoritmo 37</h1>
+    <p>
+        JS
+    </p>
     <img src="js.png">
-    <br><br><br>
+    <h4>
+        function total(){ <br> var livro1 = document.getElementById("livro1").value <br> var livro2 = document.getElementById("livro2").value <br> var livro3 = document.getElementById("livro3").value <br><br> var soma = Number(livro1)+Number(livro2)+Number(livro3)
+        <br><br> document.getElementById("resultado").innerHTML = "R$ "+soma <br> } <br><br> function desconto(){ <br> var livro1 = document.getElementById("livro1").value <br> var livro2 = document.getElementById("livro2").value <br> var livro3 = document.getElementById("livro3").value
+        <br><br> var soma = Number(livro1)+Number(livro2)+Number(livro3) <br> var desconto = soma*0.15 <br> var totaldesconto = soma-desconto <br><br> document.getElementById("resultado").innerHTML = "R$ "+totaldesconto <br> }
+    </h4>
+    <br>
     <button onclick="voltar()">Voltar</button>
 </body>
+
 </html>
 <script>
-    function voltar(){
-        window.location.href="index.html"
+    function voltar() {
+        window.location.href = "index.html"
     }
 </script>
